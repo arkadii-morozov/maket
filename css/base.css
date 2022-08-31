@@ -1,0 +1,95 @@
+/* css var - #1D9D73 */
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/Ubuntu-Light.ttf);
+}
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #888;
+}
+
+h1,h2,h3,.h1,.h2,.h3{
+	font-weight: 300;
+	color: #333;
+}
+
+h1, .h1{
+	font-size: 55px;
+	margin: 30px 0;
+}
+
+h2, .h2{
+	font-size: 35px;
+	margin: 20px 0;
+}
+
+h3, .h3{
+	font-size: 26px;
+	margin: 16px 0;
+}
+
+strong, .strong{
+	font-weight: 400;
+}
+
+em, .em{
+	font-weight: 300;
+	font-style: italic;
+}
+
+p{
+	font-weight: 300;
+	margin: 16px 0;
+}
+
+/* etc */
+.content-text ul{
+	list-style-type: disc;
+	padding-left: 50px;
+}
+
+.container{
+	max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1050px) {
+    .container{
+        max-width: 900px;
+    }    
+
+    h1, .h1{
+        font-size: 32px;
+        margin: 24px 0;
+    }
+    
+    h2, .h2{
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    
+    h3, .h3{
+        font-size: 18px;
+        margin: 16px 0;
+    }
+    p{     
+        font-size: 16px;
+    }
+}
